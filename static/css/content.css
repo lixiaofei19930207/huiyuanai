@@ -1,0 +1,111 @@
+.article{
+  margin-top: 60px;
+}
+.article .title{
+  text-align: center;
+}
+.bdsharebuttonbox{
+  text-align: center;
+  width: 100%;
+}
+
+.articlecontent{
+  margin-top: 20px;
+}
+.article .bvideo{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.notes{
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.svideo{
+  display: none;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dashang{
+  text-align: center;
+  margin-top: 100px;
+}
+.shangbtn{
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  background:none;
+  border:1px solid purple;
+  border-radius: 200px;
+  color:purple;
+  outline: none;
+}
+.shangbtn:hover{
+  color:white;
+  background: purple;
+}
+.shangbtnbox{
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border:8px solid #e098e0;
+  border-radius: 120px;
+}
+.shangbox{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background: 0;
+}
+.shangbox .usericon{
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: white;
+  border-radius: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border:2px solid gray;
+}
+.shangbox-bottom{
+  width: 100%;
+  padding-top: 60px;
+  background: white;
+  margin-top: -45px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.shangbox-bottom img{
+  width: 200px;
+  padding: 10px;
+}
+.usericon img{
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  overflow: hidden;
+}
+.shangbox-bottom p{
+  font-size: 12px;
+  color: #777;
+}
+@media only screen and (max-width: 768px){
+  .article .bvideo{
+    display: none;
+  }
+  .svideo{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .shangbox{
+    width: 95%;
+  }
+}

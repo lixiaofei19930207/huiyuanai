@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;;
+}
+
+div#container {
+    position: relative;
+    margin: 0 auto;
+    height: auto !important;
+    height: 100%; /* IE6: min-height*/
+    min-height: 100%;
+}
+div#content {
+
+}
+
+div#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: -350px;
+    height: 350px;
+    background: url("../images/footbg2.png");
+    background-repeat:repeat-x;
+    background-position: bottom;
+}
+
+#footer .webinfo{
+  text-align: center;
+  color:black;
+  padding-top:300px; 
+}
+
+#footer a{
+  color:black;
+  text-decoration: none;
+}
+
+.uk-offcanvas-bar{
+  background: white;
+  width: 200px;
+}
+
+.menu-list{
+  width: 100%;
+  padding-top: 30px;
+}
+
+.menu-list li{
+  padding: 8px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-icon{
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  background: white;
+  border-radius: 60px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.menu-icon img{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.soial-link{
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.tm-navbar{
+  background: #eee;
+  box-shadow: 0 0 5px #888;
+}
+.tm-navbar{
+  padding: 10px 0;
+  background:white;
+  box-shadow: 0 0 3px 0 rgba(100,100,100,.2);
+}
+.banner{
+  z-index: 1;
+}
+.banner img{
+  z-index: 1;
+}
+.page{
+  margin-top: 30px;
+}
+
+.page div{
+  width: 100%;
+}
+.page .pre{
+  text-align: left;
+}
+
+.page .next{
+  text-align: right;
+}

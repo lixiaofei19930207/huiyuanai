@@ -1,0 +1,104 @@
+
+.workslistarea h4{
+  width: 100%;
+}
+.workslistarea .uk-grid{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+.icon-dot{
+  width: 14px;
+  height: 14px;
+  background: purple;
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.typelistarea{
+  background: #fbd1fb;
+  border-top: 1px solid #ddd;
+  padding: 15px 15px;
+}
+.typelist{
+  width: 100%;
+}
+.typelist li a:hover{
+  background: purple;
+  color:white;
+  border: 0px;
+}
+
+.typelist li a{
+  color:black;
+    padding: 5px 15px;
+    background: white;
+    border-radius: 20px;
+    color:black;
+    margin-right: 15px;
+    font-size: 13px;
+    display: inline-block;
+    border:1px solid #ddd;
+}
+
+.typelist li .active{
+  background: purple;
+  color:white;
+  border: 0px;
+}
+.author-item{
+  margin: 20px 5px;
+  position: relative;
+  padding: 5px;
+  box-shadow: 2px 2px 1px #ddd;
+}
+
+.author-cover{
+  width: 80px;
+  height: 80px;
+}
+
+.author-meta{
+  position: absolute;
+  left: 90px;
+  top:5px;
+  right:10px;
+  bottom: 5px;
+}
+
+
+.label1{
+  font-size:12px;
+  margin-top: 2px;
+  color:purple;
+  height: 15px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.author-desc{
+  height: 32px;
+  overflow: hidden;
+  color:#908c8c;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-height: 16px;
+  margin-top: 10px;
+
+}
+.author-name{
+  height: 18px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 768px){
+
+
+
+}

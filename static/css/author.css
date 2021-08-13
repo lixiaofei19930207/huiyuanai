@@ -1,0 +1,98 @@
+
+.workslistarea h4{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.icon-dot{
+  width: 14px;
+  height: 14px;
+  background: purple;
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.booklist{
+  margin-top: 25px;
+}
+.book-item{
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  height: 140px;
+  margin-top: 20px;
+}
+.book-item a{
+  color:black;
+}
+.caption{
+  position: absolute;
+  left: 120px;
+  right: 0px;
+  top: 0px;
+}
+
+.caption .title{
+  font-size: 20px;
+  color:#333;
+}
+
+.caption .intro{
+  padding-left: 50px;
+  color: gray;
+  height: 80px;
+  line-height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+.caption .desc{
+  margin-top: 10px;
+}
+.caption .descs{
+  position: absolute;
+  left: 0px;
+
+}
+
+.booklabel li{
+  border: 1px solid purple;
+  padding: 0px 5px;;
+  margin-right: 6px;
+  color: purple;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+  .caption .title{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  .caption .title{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+
+  .caption .intro{
+    height: 80px;
+    font-size: 12px;
+    line-height: 18px;
+    height: 70px;
+    overflow: hidden;
+    padding-right: 8px;
+  }
+
+
+}

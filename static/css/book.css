@@ -1,0 +1,173 @@
+.bookmeta{
+  margin-top: 40px;
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+.bookcover{
+  width: 165px;
+  height: 249px;
+}
+
+.bookinfo{
+  position: absolute;
+  left:190px;
+  top:0px;
+  right:0px;
+  display: block;
+}
+.bookinfo .title{
+  font-size: 25px;
+  color:#333;
+  line-height: 35px;
+}
+
+.booklabel li{
+  border: 1px solid purple;
+  padding: 0px 15px;;
+  margin-right: 6px;
+  color: purple;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.bookinfo2{
+  display: none;
+}
+.bookinfo2 .au p{
+  padding:0px 5px;
+  margin: 3px 0px;
+}
+.bookinfo2 .au{
+  margin-top: 20px;
+  font-size: 12px;
+}
+.bookdesc{
+  margin-top: 20px;
+  line-height: 25px;
+  color:#777;
+  display: none;
+}
+.bookinfo .desc{
+  margin-top: 60px;
+  line-height: 25px;
+  height: 150px;
+  overflow: hidden;
+  color:#666;
+}
+
+.tab-bar{
+  width: 100%;
+  border-bottom: 1px solid purple;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-bar .tab-item{
+  display: inline-block;
+  color:#777;
+  font-size: 18px;
+  padding: 6px 30px;
+  text-decoration: none;
+}
+.tab-bar .tab-item:hover{
+  color:purple;
+  border-bottom: 2px solid purple;
+}
+.tab-bar .tab-item:active{
+  color:purple;
+  border-bottom: 2px solid purple;
+}
+.active{
+  color:purple;
+  border-bottom: 2px solid purple;
+}
+.a{
+  text-align: center;
+}
+ul,li{
+  padding: 0px;
+  margin: 0px;
+}
+
+.a li{
+  padding: 8px 0px;
+}
+.a ul{
+  margin-left: 0px;
+}
+.a li:nth-child(4n)
+{
+  background:#eee;
+}
+.a li:nth-child(4n-1)
+{
+  background:#eee;
+}
+.mykey{
+  text-align: left;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+  .a li:nth-child(4n)
+  {
+    background:white;
+  }
+  .a li:nth-child(4n-1)
+  {
+    background:white;
+  }
+  .a li:nth-child(odd)
+  {
+    background:#eee;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .bookcover{
+    width: 90px;
+    height: 135px;
+  }
+  .bookmeta{
+    height: 140px;
+  }
+  .bookinfo{
+    display: none;
+  }
+  .bookinfo2{
+    display: block;
+    position: absolute;
+    left:100px;
+    top:0px;
+    right:0px;
+  }
+  .bookinfo2 .title{
+    font-size: 20px;
+    color:#333;
+    line-height: 28px;
+    height: 60px;
+  }
+
+  .booklabel{
+    display: none;
+  }
+  .bookdesc{
+    display: block;
+  }
+
+  .a li:nth-child(4n)
+  {
+    background:white;
+  }
+  .a li:nth-child(4n-1)
+  {
+    background:white;
+  }
+  .a li:nth-child(odd)
+  {
+    background:#eee;
+  }
+
+}

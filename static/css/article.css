@@ -1,0 +1,20 @@
+.article-area{
+  margin: 10px;
+  max-width: 700px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+
+.content{
+  margin-top: 20px;
+}
+
+.article-cover{
+  width: 100%;
+}
+
+.article-cover img{
+  width: 100%;
+}

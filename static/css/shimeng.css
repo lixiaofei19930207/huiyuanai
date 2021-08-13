@@ -1,0 +1,131 @@
+body {
+    background: #30C090;
+    background: linear-gradient(rgba(48, 192, 144, 0.67), rgba(0, 0, 0, 0) 40%) fixed no-repeat, url(../images/starfield2012.gif) fixed;
+}
+
+.item{
+	background:#000000;
+	color:white;
+	margin-top: 20px;
+    padding: 20px;
+	
+}
+
+.navbar {
+    background-position: 70% 35%;
+    background-size: 100%;
+	padding: 0px;
+}
+.quotations{
+	color:black;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	padding:3px 10px;
+}
+
+div#footer{
+	display:none;
+}
+
+.tempfooter{
+	color:white;
+	text-align:center;
+	margin-top:60px;
+	margin-bottom:15px;
+}
+
+.bar6 input{
+	border: 2px solid #30C090;
+	color:white;
+}
+
+.bar6 button {
+    background: #30C090;
+}
+
+.bar6 .autobox {
+	border: 1px solid #30C090;
+	background:black; 
+}
+
+.bar6 .autobox li a{
+     color: #30C090;
+     background: black;
+ }
+
+.bar6 .autobox li a:hover{
+    float: none;
+    color: white;
+    background: #30C090;
+}
+.uk-list li a{
+	color:white;
+}
+
+.tm-navbar {
+    background: black;
+}
+
+.uk-navbar-nav>li>a {
+    color: white;
+}
+
+.tm-navbar li a:focus {
+  background-color:#30C090;
+   color: white; 
+}
+
+.tm-navbar li a:hover {
+  background-color:#30C090;
+   color: white; 
+}
+
+.tm-navbar{
+	padding:0px;
+}
+
+.tm-navbar .uk-container{
+	max-width:100%;
+	padding-left:0px;
+}
+
+.uk-navbar-brand{
+	padding-left:0px;
+	padding-right:0px;
+	background:#30C090;
+	width:110px;
+}
+
+.uk-navbar-brand:hover{
+	background:black;
+}
+
+.naviconurl div a {
+    color: white;
+    background:#30C090;
+}
+
+
+.item .uk-list li a{
+}
+
+.uk-vertical-align-middle{
+	color:white;
+}
+
+.nickname a{
+	color:white;
+}
+
+.video{
+	 background:#30C090;
+}
+.video .tag .title a {
+    color: white;
+}
+
+.uk-navbar-nav{
+	margin-left:15px;
+}

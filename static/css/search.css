@@ -1,0 +1,76 @@
+/*搜索框6*/
+        .bar6 form {
+            position: relative;
+            margin: 0 auto;
+            max-width: 400px;
+        }
+
+        .bar6 input, button {
+            border: none;
+            outline: none;
+        }
+        .bar6 input {
+            border: 2px solid #c5464a;
+            border-radius: 5px;
+            background: transparent;
+            top: 0;
+            right: 0;
+            width: calc(100% - 18px);
+            height: 38px;
+            padding-left: 13px;
+            font-size: 15px;
+        }
+        .bar6 button {
+            background: #c5464a;
+            border-radius: 0 5px 5px 0;
+            width: 60px;
+            top: 0;
+            right: 0;
+            height: 42px;
+            cursor: pointer;
+            position: absolute;
+        }
+        .bar6 img{
+          position: absolute;
+          left: -160px;
+        }
+        .bar6 button:before {
+            content: "搜索";
+            font-size: 13px;
+            color: #F9F0DA;
+        }
+        .bar6 .autobox{
+          border: 1px solid #c5464a;
+          padding: 5px 0px 0px 0px;
+          z-index: 100;
+          position:absolute;
+          width: calc(100% - 4px);
+          background: white;
+          box-shadow: 0 0 15px rgba(100, 100, 100, 0.1);
+        }
+
+        .bar6 .autobox li{
+          float: none;
+          padding: 0px;
+          margin: 0px;
+        }
+
+        .bar6 .autobox li a{
+          color: #c5464a;
+          background: white;
+          margin: 0px;
+          padding: 5px;
+          display: block;
+          text-decoration: none;
+        }
+
+        .bar6 .autobox ul{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+        }
+
+        .bar6 .autobox li a:hover{
+          float: none;
+          color: white;
+          background: #c5464a;
+        }

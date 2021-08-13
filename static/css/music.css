@@ -1,0 +1,64 @@
+.mask{
+	position:absolute;
+	bottom:0px;
+	transition: width 0.2s;
+	-moz-transition: height 0.2s;
+	-webkit-transition: height 0.2s;
+	-o-transition: height 0.2s;
+ }
+.progressbar{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:3px;
+	width:0%;
+}
+.musicbutton{
+  width:40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  color: purple;
+  border:1px solid purple;
+  background: white;
+ top :20px;
+ left :20px;
+ position :absolute;
+}
+
+.musicbutton:hover{
+  color:white;
+  background: purple;
+}
+
+.circlec{
+  animation: circle 5s  infinite linear;
+  -webkit-animation:circle 5s  infinite linear;
+  -moz-animation: circle 5s  infinite linear;
+  -o-animation: circle 5s  infinite linear;
+}
+
+@keyframes circle
+{
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}
+
+@-moz-keyframes circle /* Firefox */
+{
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}
+
+@-webkit-keyframes circle /* Safari å’Œ Chrome */
+{
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}
+
+@-o-keyframes circle /* Opera */
+{
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}

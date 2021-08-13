@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>哀的标签页</title>
+    <meta charset="utf-8">
+    <link href="css/label.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/label.js"></script>
+    <script src="js/web-storage-cache.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="searchBox">
+                <a id="searchurl" target="_blank" href="http://www.baidu.com">
+                    <div class="search_logo"></div>
+                </a>
+                <div class="selectlist">
+                    <ul class="searchlist">
+                        <li>
+                            <div class="item baidu" url="http://www.baidu.com" searchurl="https://www.baidu.com/s" searchkey="wd" name="baidu" offset="0"></div>
+                        </li>
+                        <li>
+                            <div class="item qh360" url="http://www.so.com" searchurl="https://www.so.com/s" searchkey="q" name="qh360" offset="-52"></div>
+                        </li>
+                        <li>
+                            <div class="item google" url="http://www.google.com" searchurl="https://www.google.com/search" searchkey="q" name="google" offset="-208"></div>
+                        </li>
+                        <li>
+                            <div class="item bing" url="http://www.bing.com" searchurl="https://cn.bing.com/search" searchkey="q" name="bing" offset="-156"></div>
+                        </li>
+                        <li>
+                            <div class="item sougou" url="http://www.sogou.com" searchurl="https://www.sogou.com/web" searchkey="query" name="sougou" offset="-104"></div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="moresearch" id="moresearch" href="javascript:void(0)"></a>
+                <form id="searchform" method="get" action="https://www.baidu.com/s">
+                    <input name="wd" class="searchinput" autocomplete="off" />
+                    <input type="submit" class="searchboxBtn" title="搜索" value="" />
+                </form>
+                <div class="suggestword">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="tips">
+                <p></p>
+            </div>
+            <div class="todoinput">	<span>TODO</span>
+                <input name="todo" id="todoinput" autocomplete="off" />
+            </div>
+            <div class="greybg"></div>
+        </div>
+    </div>
+    <div class="time">
+        <div class="timehms">
+            <div class="timehm">00:00</div>
+            <div class="ss">00</div>
+        </div>
+        <div class="date">00月00日,星期一</div>
+    </div>
+    <div class="todolist">
+        <div class="title">待办事项列表</div>
+        <ul id="todoList"></ul>
+    </div>
+	
+	<div class="top">
+		<a target="_blank" href="https://www.huiyuanai.com/page/1226.html" >投稿壁纸</a>&nbsp;&nbsp;&nbsp;
+		<a target="_blank" href="https://www.huiyuanai.com">关于我们</a>&nbsp;&nbsp;&nbsp;
+		<a target="_blank" href="https://www.huiyuanai.com/page/1227.html">版本更新</a>&nbsp;&nbsp;&nbsp;
+		<a target="_blank" href="https://www.huiyuanai.com/page/1228.html">建议反馈</a>
+	</div>
+	
+</body>
+
+</html>

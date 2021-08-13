@@ -1,0 +1,224 @@
+
+<!doctype html>
+<html>
+  <head>
+     <title>File 1 Perfect Convergence-灰原哀导航</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <meta name="keywords" content="file,1,perfect,convergence"/>
+	  <meta name="description" content="本站已经获得授权转载此文，未经原作者允许，请勿随意转载到站外『BP神经网络初始化……对数S型感知器神经元模型初始阈值: 0.5……输入层神经元数: 60……隐含层数: 20……连接权系数赋值: 随机……学习规则: Outstar……训练最大步数: 120000……收敛目标: 10^(-10)……学习速率区间: [0.15,0.25]，服从波尔兹曼分布……』　　『读取样本数据……』　　『Training……』　　“呵～最后一个模拟样本了……”　　终日不见日光的地下室里，显示器前的女孩熟练地将正在运行的人工神经网络训练程序切换到后台，一个布满繁杂数据表格和图像的窗口映在了灰蓝色的瞳孔中。审视着常人"/>
+	  
+	  <script src="https://static.huiyuanai.cn/static/js/jquery.min.js"></script>
+	  <link href="https://static.huiyuanai.cn/static/js/uikit-2/css/uikit.min.css" rel="stylesheet"/>
+	  <link href="https://static.huiyuanai.cn/static/js/uikit-2/css/components/sticky.min.css" rel="stylesheet"/>
+	  <script src="https://static.huiyuanai.cn/static/js/uikit-2/js/uikit.min.js"></script>
+	  <script src="https://static.huiyuanai.cn/static/js/uikit-2/js/components/sticky.min.js"></script>
+	  <script src="https://static.huiyuanai.cn/static/js/uikit-2/js/components/grid.min.js"></script>
+	  <script src="https://static.huiyuanai.cn/static/js/qrcode.min.js"></script>
+	  <link href="https://static.huiyuanai.cn/static/css/content.css" rel="stylesheet"/>
+	  <link href="https://static.huiyuanai.cn/static/css/common.css" rel="stylesheet"/>
+	  <link href="https://static.huiyuanai.cn/static/css/menu.css" rel="stylesheet"/>
+   </head>
+   <body>
+    <div id="container">
+       <div id="header">
+         <nav class="tm-navbar uk-navbar uk-navbar-attached">
+            <div class="uk-container-center uk-container">
+              <a class="uk-navbar-brand uk-hidden-small" href="//www.huiyuanai.com/">
+                <img src="https://static.huiyuanai.cn/upload/2018/04-01/22-48-4905142116671791.png" width="90" height="30" />
+              </a>
+              <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+              <div class="uk-navbar-brand uk-navbar-center uk-visible-small">
+               <a href="//www.huiyuanai.com/"> <img src="https://static.huiyuanai.cn/upload/2018/04-01/22-48-4905142116671791.png" width="90" height="30"></a>
+              </div>
+              <ul class="uk-navbar-nav uk-hidden-small">
+                    <li><a href="//www.huiyuanai.com/author/index.html">作者</a></li>
+<li><a href="//www.huiyuanai.com/notice/index.html">公告</a></li>
+<li><a href="//www.huiyuanai.com/page/26.html">关于我们</a></li>
+<li><a href="//www.huiyuanai.com/page/27.html">帮助我们</a></li>
+<li><a href="//www.huiyuanai.com/form/applylink.html">申请友链</a></li>
+<li><a href="//www.huiyuanai.com/bianjibu/index.html">编辑部</a></li>
+<li><a href="//www.huiyuanai.com/page/message.html">留言板</a></li>
+ 
+              </ul>
+            </div>
+         </nav>
+ </div> 
+       <div id="content">
+         <div class="uk-container-center uk-container content-wrap">
+            <div class="banner" style="background:url('https://static.huiyuanai.cn/upload/2018/06-04/00-44-100855-87012004.png')">
+ </div>
+ 
+            <div class="contentArea">
+              <div class="uk-grid subContentArea">
+                  <div class="left uk-width-large-3-4 uk-width-1-1">
+                      <!--内容区域-->
+                      <div class="workslistarea">
+                        <ul class="breadcrumb">
+                          <li><a href="//www.huiyuanai.com/" target="_blank">主页</a></li>
+							<li><a href="//www.huiyuanai.com/author/index.html" target="_blank">作者</a></li>
+						  <li><span><a href="//www.huiyuanai.com/author/1104_1.html">panzerVI</a></span></li>
+						  <li><span><a href="//www.huiyuanai.com/novel/1147.html">(1) No Affair Beyond The Line</a></span></li>
+                          <li class="uk-active"><span><a href="//www.huiyuanai.com/chapter/1148.html">File 1 Perfect Convergence</a></span></li>
+                        </ul>
+                        <div class="article">
+                            <h2 class="title">File 1 Perfect Convergence</h2>
+                            <div class="articlecontent">
+                              	 <p><span style="color: rgb(255, 0, 0);">本站已经获得授权转载此文，未经原作者允许，请勿随意转载到站外</span></p><p><br/></p><p><br/></p><p><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">『BP神经网络初始化……对数S型感知器神经元模型初始阈值: 0.5……输入层神经元数: 60……隐含层数: 20……连接权系数赋值: 随机……学习规则: Outstar……训练最大步数: 120000……收敛目标: 10^(-10)……学习速率区间: [0.15,0.25]，服从波尔兹曼分布……』</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　『读取样本数据……』</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　『Training……』</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“呵～最后一个模拟样本了……”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　终日不见日光的地下室里，显示器前的女孩熟练地将正在运行的人工神经网络训练程序切换到后台，一个布满繁杂数据表格和图像的窗口映在了灰蓝色的瞳孔中。审视着常人难以理解的浮点数值和曲线，她清秀而略显苍白的脸上浮现出一丝久违的微笑。</span><br/><br/><br/><br/></p><p><span style="color:blue"><em style="word-wrap: break-word;"><span style="font-size:16px">July 13</span></em><br/><br/>Daylight</span></p><p><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“本月中旬开始，美军的多个航母战斗群将齐聚西太平洋水域，进行水面联合作战、反潜战与潜艇战、海空联合作战、港口访问等为内容的共同演习。此次演习，美军投入50多艘战舰、600多架战机和来自陆、海、空三军及海军陆战队的15万官兵，堪称是美国有史以来最大规模的一次军演……”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“早啊，小哀……该不是又一夜没睡吧？”阿笠博士套着布满卡通图案的睡衣，打量着一脸倦容，却认真地盯着电视中早间新闻的茶发女孩。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“嗯，差不多，看段新闻换换脑子，今年夏天不平静哦。”哀跳下沙发，迅速将话题转换到她认为显然更需要关心的事情上，“我通过网络和电话订购了一些生理监控设备、药物实验白鼠和化学药剂之类，当然，是以博士的名义，这几天大概会陆续送货，到时候注意签收哦。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“订购了这些……难道……”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“难道解药已经要进入实验的阶段了？！”从客厅门口传来一声混杂着惊异和兴奋的大喊。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“工藤？”柯南的突然出现对于哀来说显然也有些意外，不过她很快转身回敬给他一个已经成为个人标志的冷笑，“几天不见，一大早怎么有兴趣过来监工？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“解药是不是要完成了？”来者毫不理会哀对话题的又一次转换，固执地追问着。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“平时一贯冷静的大侦探，怎么只要一提到解药就真的像个小学生一样冒失了？”一双似笑非笑的大眼睛直视着柯南的脸，“嗯，我想你指的是动物实验阶段，不错，但不是解药，APTX的最终完成品而已。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“……”“……”这个消息是两个听众始料未及的。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“吃惊吧，大侦探？”哀饶有兴趣地观察着柯南的面部表情，“治病和杀生之间往往只有一线之隔。根据我的一再尝试，证实具有完整功能的APTX成品是通过机理推导以生成永久性作用解药的必要参照物，所以，仅仅是因为见证了这个重要成果的出现，你就应该摆出一个开心点的笑容哦。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“喂喂……”，柯南的眼睛终于无可避免地眯成了半月形，“也就是你能这么沉得住气啊，还是你们这类人的共性呢？大科学家……咦？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　毫无征兆地，从哀那双灰蓝色的眼睛中射出的犀利目光在一瞬间就跳闪到了一边的空气中，刚才还带着一点嘲讽意味的眼神忽然就变了色，似乎被什么东西刺痛了一般。“像我这样从没负过任何责任的人，”她的脸别向了一侧，“恐怕是没有资格接受这么一个称谓呢。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　轻轻地叹了一口气，她低着头走向地下室：“我去查看和分析一下最后几组模拟数据的结果，大概还要一两个小时，你们不要来打搅我。”说完，便侧身闪入了螺旋型楼梯的阴影之中。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“嘿……她又在闹什么别扭啊？”柯南斜着眼望向博士，“什么责任不责任的？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“啊～这个啊，我想想”，博士抬起手来抚摩着他的“地中海”，“嗯，似乎和她这几天看的那个电视节目有关呢。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“不会吧……我还似乎没见过她看什么煽情的电视节目呢，只见她看新闻什么的……”柯南似乎在努力想象博士所说的那个情景。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“对了，是历史频道的节目，爱因斯坦的人物志，”(柯南：“这就不意外了……”)“上个星期一直准时收看的呢，其实我对这个也满有兴趣的。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“还真是物以类聚，”柯南暗想，“这么说灰原又受这老头什么思想的毒害了？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“我想是因为这个，其实我也很赞同的，『我们将此种巨大力量解放的科学家们，对于一切事物都要优先负起责任，必须限制原子能绝对不能使用来杀害全人类，而是用来增进人类的幸福方面』，这是爱因斯坦的原话哦，我的记忆力看来还没衰退吧，新一？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“原来如此啊，灰原是有可能在这方面想得太多”，柯南把两手交叉在脑后，脸上露出一点不以为然的表情，“今天我来这里有正事商量的呢。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“该不是又想求我帮你在网上寻找什么线索了吧？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“还老记着上回的事情啊……这次可是第一时间和你商量对策哦。FBI在策划一次行动，我也是刚刚被告知，规模可能超出你的想象，涉及的各方力量可能需要慢慢解释清楚，在其中可供我们发挥的自由度也比较低。这样吧，我想先知道，上次和组织交锋时用过的电子设备状态还好吗？”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“这个不用担心，上次的事件结束后马上就重新调试过，几乎恢复到出厂状态，包括被砸坏的那些仪器，啊，只是现在外形上难看了点。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“好。这样就放心了，最近最好能抽时间到户外去调试、磨合一下设备，有很多事情也是出去商量和准备的好。”说这话的同时，柯南用眼睛向地下室的门口示意了一下。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“哦，是的是的，”博士心领神会，“反正你也正在暑假期间，外出时间由你定吧。设备都在车库里，先带你去清点一下。”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“嗯，这样的话，越快越好。设备调试从18日开始吧，之前先把行动的思路以及和各方面的协调关系理顺，我们动身参加的时间大概会在21日，到时候你找个充分点的外出理由就好。看那个家伙现在的状况，解药的事情看来不是一时半会能够完成的……”</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“不过……”说话声渐渐远去，终于变得无法辨别。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“呵～笨蛋”，楼梯拐角处微微传来清冷的声音。“好吧，会再次让你吃惊的……大侦探……”脸上残留着几乎不可见的一丝笑意，哀顺着楼梯慢慢踱进地下研究室，在房间中央踌躇了一小会，抓起了旁边桌上的电话听筒。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　“……是的，编号为M114 6432和M114 7469的，对，调整到18日当天早上，务必准时上路……”</span><br/><br/><br/></p><p><img id="aimg_iHu8b" class="zoom" src="http://person.uland.com/personphoto/16/16872/16872247/922116429.JPG" alt=""/></p><p><br/><span style="word-wrap: break-word; font-weight: 700; color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);"><span style="color:blue"><span style="font-size:16px">Next File: Metamorphosis</span></span></span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">Metamorphosis:</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">【Biology·生物学】</span><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　蜕变动物在胚胎阶段以后正常发育期内经历的形体变化，通常也包括习惯的变化。对于昆虫，苍蝇的蜕变包括从蛆到成虫的变形以及从毛虫到蝴蝶的变形，而两栖动物，则包括从蝌蚪到青蛙的变形等。</span><br/><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">【Pathology·病理学】</span><br/><span style="color: rgb(68, 68, 68); font-family: Tahoma, &quot;Microsoft Yahei&quot;, Simsun; font-size: small; background-color: rgb(255, 255, 255);">　　变质指某一特定身体组织的通常为退化性的变化。</span></p><p><br/></p>
+                            </div>
+
+                            <!-- div class="dashang">
+                                <div class="shangbtnbox">
+                                  <button class="shangbtn" data-uk-modal="{target:'#shangbox'}" onclick="javascript:void(0)">赏</button>
+                                </div>
+
+                            </div -->
+							
+                        </div>
+						  
+						  <div class="page">
+							  			 <div class="next"><a href="//www.huiyuanai.com/chapter/1149.html">下一章:File 2 Metamorphosis</a></div>
+                            </div>
+						  
+						   <div style="height:80px;"></div>
+              				<div class="comment">
+                 				 <div id="SOHUCS" sid="//www.huiyuanai.com/author/1148.html" ></div> 
+							  <script>
+							  		(function(){var appid='cythSqPT9';var conf='prod_1a2a8c69e2904db67b54dfc8086c826a';var width=window.innerWidth||document.documentElement.clientWidth;if(width<960){window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id='+appid+'&conf='+conf+'"><\/script>');}else{var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}
+c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});}})();
+							  </script>
+              				</div>
+
+                      </div>
+                      <!--内容区域结束-->
+                  </div>
+                  <div class="right uk-width-large-1-4 uk-width-1-1">
+                    <!--简介区域-->
+                    <div class="profile_cover" style="background-image:url('https://static.huiyuanai.cn/upload/2018/03-04/19-13-2306171834134388.jpg')">
+                    </div>
+                    <div class="userinfo">
+                      <div class="bookicon">
+						  	 <img src="https://static.huiyuanai.cn/upload/2018/06-20/10-05-340365-1484964857_200_300.jpg">
+                      </div>
+                      <div class="username">
+                        (1) No Affair Beyond The Line
+                      </div>
+                      <div class="authorname">
+                        panzerVI
+                      </div>
+                      <div class="label">
+                        <ul>
+									<li>SNR</li>
+									<li>科幻</li>
+                        </ul>
+                        <div style="clear:both"></div>
+                      </div>
+                      <div class="desc">
+                        『BP神经网络初始化……对数S型感知器神经元模型初始阈值: 0.5……输入层神经元数: 60……隐含层数: 20……连接权系数赋值: 随机……学习规则: Outstar……训练最大步数: 120000……收敛目标: 10^(-10)……学习速率区间: [0.15,0.25]，服从波尔兹曼分布……』
+                      </div>
+						<div class="qcode">
+                          <p>本页二维码</p>
+                          <div id="qrcodeimg"></div>
+                          <br><br>
+                          已有<span class="viewnum-count">loadding</span>人看过此章节
+                      </div>
+
+                    </div>
+                    <!--简介区域结束-->
+                  </div>
+
+              </div>
+            </div>
+
+         </div>
+       </div>
+       <div id="footer">
+          <div class="webinfo">
+	Copyright &copy; 2017-2020 由<a href="http://www.publiccms.com" target="_blank"nofollow>Public CMS驱动</a>&nbsp;&nbsp;<a target="_blank" href="sitemap.xml">站点地图</a><br/> <a href="http://www.beian.miit.gov.cn/" target="_blank">豫ICP备15014664号-8</a> 
+	<script src="https://s11.cnzz.com/z_stat.php?id=1254913498&web_id=1254913498" language="JavaScript"></script>
+</div>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+ 
+       </div>
+    </div>
+
+    <!-- div id="shangbox" class="uk-modal">
+      <div class="uk-modal-dialog uk-modal-dialog-blank shangbox">
+          <div class="usericon">
+            <img src="http://linovel-avatar.b0.upaiyun.com/data/1009/1009001.jpg" width="80" height="80">
+          </div>
+          <div class="shangbox-bottom">
+              <p>这人很懒，还没有上传二维码哦～<br>如果这是您的作品，您可以联系我上传你的微信或者支付宝收款码</p>
+              <img src="static/images/noerweima.png">
+              <br><br>
+              <p>用户自行承担资金安全，我方不承担连带责任</p>
+          </div>
+
+          <div class="shangbox-bottom">
+              <p>有了打赏才能支持作者更好的创作</p>
+              <img src="static/images/weixin.jpg">
+              <img src="static/images/zhifubao.jpg">
+              <p>用户自行承担资金安全，我方不承担任何连带责任</p>
+          </div>
+      </div>
+    </div -->
+	   	<script>
+				var url = window.location.href;
+		   		new QRCode("qrcodeimg", {
+        			text: url,
+        			width: 150,
+        			height: 150,
+        			colorDark : "#800080",
+        			colorLight : "#ffffff",
+        			correctLevel : QRCode.CorrectLevel.H
+      			});
+				$.ajax({
+			   		url: "//www2.huiyuanai.com/api/contentClick?id=1148",
+			   		type: "GET",
+			   		dataType: "jsonp", //指定服务器返回的数据类型
+				   	success: function (data) {
+				   		$('.viewnum-count').text(data.clicks);
+			   		}
+		   });
+		</script>
+
+    
+<div id="tm-offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+          <div class="menu-icon">
+            <img src="https://static.huiyuanai.cn/upload/2018/03-18/20-38-250078-143288337.jpg " alt="灰原哀导航" />
+          </div>
+          <div class="soial-link">
+						  			<a href="https://weibo.com/u/5714905744" target="_blank">
+                          				<img src="https://static.huiyuanai.cn/static/images/wb_icon.png" width="15" height="15">
+                        			</a>&nbsp;
+          </div>
+          <ul class="uk-nav menu-list">
+              <li><a href="//www.huiyuanai.com/author/index.html">作者</a></li>
+<li><a href="//www.huiyuanai.com/notice/index.html">公告</a></li>
+<li><a href="//www.huiyuanai.com/page/26.html">关于我们</a></li>
+<li><a href="//www.huiyuanai.com/page/27.html">帮助我们</a></li>
+<li><a href="//www.huiyuanai.com/form/applylink.html">申请友链</a></li>
+<li><a href="//www.huiyuanai.com/bianjibu/index.html">编辑部</a></li>
+<li><a href="//www.huiyuanai.com/page/message.html">留言板</a></li>
+ 
+          </ul>
+        </div>
+    </div>
+ 
+   </body>
+</html>

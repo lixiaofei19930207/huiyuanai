@@ -1,0 +1,128 @@
+
+.workslistarea h4{
+  width: 100%;
+}
+
+.icon-dot{
+  width: 14px;
+  height: 14px;
+  background: purple;
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.booklist{
+  margin-top: 25px;
+}
+.book-item{
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  height: 140px;
+  margin-top: 20px;
+}
+.book-item a{
+  color:black;
+}
+.caption{
+  position: absolute;
+  left: 120px;
+  right: 0px;
+  top: 0px;
+}
+
+.caption .title{
+  font-size: 20px;
+  color:#333;
+  margin-bottom: 6px;
+}
+
+.caption .intro{
+  padding-left: 50px;
+  color: gray;
+  height: 80px;
+  line-height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+.caption .desc{
+  margin-top: 10px;
+}
+.caption .descs{
+  position: absolute;
+  left: 0px;
+
+}
+.bookinfo a{
+  color:#777;
+  font-size: 14px;
+}
+.bookinfo{
+  color:#777;
+  font-size: 14px;
+}
+
+.typelistarea{
+  background: #fbd1fb;
+  border-top: 1px solid #ddd;
+  padding: 15px 15px;
+}
+.typelist{
+  width: 100%;
+}
+.typelist li a:hover{
+  background: purple;
+  color:white;
+  border: 0px;
+}
+
+.typelist li a{
+  color:black;
+    padding: 5px 15px;
+    background: white;
+    border-radius: 20px;
+    color:black;
+    margin-right: 15px;
+    font-size: 13px;
+    display: inline-block;
+    border:1px solid #ddd;
+}
+
+.typelist li .active{
+  background: purple;
+  color:white;
+  border: 0px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+  .caption .title{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  .caption .title{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+
+  .caption .intro{
+    height: 80px;
+    font-size: 12px;
+    line-height: 18px;
+    height: 70px;
+    overflow: hidden;
+    padding-right: 8px;
+  }
+
+
+}

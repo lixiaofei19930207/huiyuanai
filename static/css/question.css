@@ -1,0 +1,79 @@
+.uk-grid{
+  margin-left: 0px;
+}
+
+.answer{
+  margin-top: 15px;
+}
+.answer li{
+  float: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  margin: 5px 0px;
+  width:100%;
+}
+.showarea{
+  padding: 20px;
+  text-align: center;
+}
+.answerarea{
+  padding: 20px;
+}
+
+.item{
+  margin-top: 25px;
+}
+
+.selectitem{
+  background: purple;
+  color: white;
+}
+
+.erroritem{
+  background: red;
+  color: white;
+}
+
+.correctitem{
+  background: green;
+  color: white;
+}
+
+.errorinput{
+  color: red;
+}
+
+.correctinput{
+  color: green;
+}
+
+.answerarea input{
+  outline: none;
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 25px;
+ border-radius:0px;
+}
+
+.analysisarea{
+  background: green;
+  color: white;
+  padding: 15px;
+}
+
+.submitbutton{
+  padding: 5px 20px;
+}
+.score{
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.scorenum{
+  font-size: 80px;
+  line-height: 90px;
+}

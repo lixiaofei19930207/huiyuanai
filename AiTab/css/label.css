@@ -1,0 +1,305 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-weight:300;
+}
+
+.content{
+	width:1000px;
+	height:500px;
+	position:absolute;
+    top:50%;
+    left:50%;
+    margin:-250px 0 0 -500px;
+}
+
+.container{
+	background-position:cover;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+}
+
+.searchBox{
+	width:640px;	
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.searchBox .searchinput{
+	width:350px;
+	height:40px;
+	font-size:20px;
+	line-height:20px;
+	border:1px;
+	outline:none;
+	border-color: #ccc;
+	padding:6px 20px;
+	margin-left:20px;
+}
+
+.searchBox .searchboxBtn{
+	width:52px;
+	height:52px;
+	background: #fff url('../image/imgs.png') no-repeat;
+	padding:0px;
+	outline:none;
+	overflow: hidden;
+    vertical-align: top;
+	border:0px;
+	background-position:6px 6px;
+	margin-left:-5px;
+	cursor:pointer;
+}
+
+.searchBox .search_logo{
+	width:150px;
+	height:52px;
+	background:url('../image/sousuologo.png');
+	overflow:hidden;
+	float:left;
+}
+
+.searchBox .moresearch{
+	display:block;
+	width:20px;
+	height:20px;
+	background: url('../image/imgs.png') no-repeat;
+	background-position:-40px 0px;
+	float:left;
+	margin-top:30px;
+}
+
+.selectlist{
+	width:170px;
+	position:absolute;
+	top:60px;
+	display: none;
+	z-index:1000;
+}
+.suggestword{
+	width:390px;
+	background:white;
+	position:absolute;
+	top:60px;
+	left:190px;
+	z-index:1000;
+}
+.suggestword ul{
+	padding:0px;
+	margin:0px;
+}
+.suggestword ul li{
+	padding:4px 10px;
+	margin:0px;
+	list-style:none;
+	font-size:14px;
+	font-weight:500;
+	cursor:pointer;
+}
+
+.suggestword ul li a{
+	color:black;
+	text-decoration:none;
+}
+
+.suggestword ul li:hover{
+	background:#c1c1c1;
+}
+
+.searchlist{
+	padding:0px;
+	margin:0px;
+}
+.searchlist li{
+	list-style:none;
+	padding:4px 10px;
+	cursor:pointer;
+	background:#fff7f7c9;
+}
+
+.searchlist li:hover{
+	background:grey;
+}
+
+.searchlist li .item{
+	width:150px;
+	height:52px;
+}
+
+.searchlist .baidu{
+	background:url('../image/sousuologo.png') no-repeat;
+	background-position:0px 0px;
+}
+.searchlist .qh360{
+	background:url('../image/sousuologo.png') no-repeat;
+	background-position:0px -52px;
+}
+.searchlist .google{
+	background:url('../image/sousuologo.png') no-repeat;
+	background-position:0px -208px;
+}
+
+.searchlist .bing{
+	background:url('../image/sousuologo.png') no-repeat;
+	background-position:0px -156px;
+}
+
+.searchlist .sougou{
+	background:url('../image/sousuologo.png') no-repeat;
+	background-position:0px -104px;
+}
+.time{
+	position:fixed;
+	left:30px;
+	bottom:30px;
+}
+
+.time .timehm{
+	font-size:70px;
+	color:white;
+	margin-right:10px;
+}
+.time .timehms{
+	height:90px;
+}
+.time .timehms .ss{
+	font-size:30px;
+	color:white;
+	margin-top:40px;
+}
+.time .timehms div{
+	float:left;
+}
+
+.time .date{
+	font-size:30px;
+	color:white;
+	clear:both;
+}
+
+
+.tips{
+	max-width:800px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 50px;
+	margin-top:120px;
+	text-align:center;
+}
+
+.todoinput{
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:90px;
+	position:relative;
+	z-index:100;
+}
+.greybg{
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	z-index:50;
+	background:#00000061;
+	display:none;
+}
+
+.todoinput input{
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:2px solid #fff;
+	background-color:transparent;
+	width:500px;
+	height:50px;
+	color:white;
+	font-size:35px;
+	line-height:35px;
+	outline:none;
+	padding:0px 10px;
+}
+
+.todoinput span{
+	color:white;
+	font-size:20px;
+}
+
+.todolist{
+	position:fixed;
+	top:40px;
+	right:20px;
+	bottom:40px;
+	width:calc(100%/2 - 440px);
+	max-width:300px;
+	font-weight:500;
+	font-size:15px;
+	color:white;
+	overflow-y:auto;
+}
+
+.todolist .title{
+	text-align:center;
+	background:#ffffffa1;
+	padding:10px;
+	width:calc(100% - 20px);
+}
+
+.todolist ul{
+	padding:0px;
+	margin:0px;
+}
+
+.todolist ul li{
+	list-style:none;
+	margin-top:10px;
+}
+
+
+.todolist .todoitem{
+	background:#ffffffa1;
+	padding:10px;
+	width:calc(100% - 20px);
+}
+
+.todolist .todoitem .opera{
+	text-align:right;
+	margin-top:5px;
+}
+
+.todolist .todoitem .opera a{
+	font-size:14px;
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+.todolist .todoitem .thing{
+	color:red;
+}
+.todolist .todoitem .thing span{
+	color:white;
+}
+
+.top{
+	position:fixed;
+	top:10px;
+	left:15px;
+}
+
+.top a{
+	color:white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
